@@ -4,15 +4,12 @@ class MyTelepathicElement extends TelepathicElement{
 		super();
 	}
 	async connectedCallback(){
-		//await super.connectedCallback("simple-demo/my-telepathic-element/my-telepathic-element.html");
 		this.init();
 	}
 	async init(){
 		this.seconds = 0;
-		this.status = {
-			message : `Hello from ${window.location}`,
-			statusClass : "ready"
-		}
+		this.statusClass = "ready";
+		this.status = {message : `Hello from ${window.location}`}
 		setInterval(()=>{
 			this.seconds++;
 		},1000);
