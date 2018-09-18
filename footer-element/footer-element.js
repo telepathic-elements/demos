@@ -1,4 +1,4 @@
-import {TelepathicElement} from "../../telepathic-element/telepathic-element.js";
+import {TelepathicElement} from "../telepathic-element/telepathic-element.js";
 class FooterElement extends TelepathicElement{
 	constructor(){
 		super();
