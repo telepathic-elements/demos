@@ -1,0 +1,3 @@
+[submodule "telepathic-element"]
+	path = telepathic-element
+	url = git@github.com:telepathic-elements/telepathic-element.git

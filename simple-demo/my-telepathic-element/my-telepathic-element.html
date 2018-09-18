@@ -1,0 +1,16 @@
+<style>
+    /* contain CSS to the parent of this, speeds up calculations and helps with browsers that need to polyfill webcomponents 1x */
+    :host {
+            display: block;
+            contain: content;
+    }
+    .ready{
+            color: black;
+            background-color: yellow;
+            font-size: 3em;
+    }
+</style>
+<div>
+    <h1 class="${status.Class}">${status.message}<h1>
+    <p>You've been telepathic for ${seconds} seconds</p>
+</div>
