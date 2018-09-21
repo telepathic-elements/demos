@@ -4,3 +4,6 @@
 [submodule "explainer-widget-element"]
 	path = explainer-widget-element
 	url = https://github.com/telepathic-elements/explainer-widget-element.git
+[submodule "telepathic-loader"]
+	path = telepathic-loader
+	url = https://github.com/telepathic-elements/telepathic-loader.git
