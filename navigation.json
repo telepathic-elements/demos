@@ -1,0 +1,14 @@
+[
+    {
+        "name" : "home",
+        "url" : "/index.html",
+        "txt" : "Home",
+        "subItems" : ["demo"]
+    },
+    {
+        "name" : "demo",
+        "url" : "/demos/index.html",
+        "visibility" : ["home"],
+        "txt" : "Demo"
+    }
+]
