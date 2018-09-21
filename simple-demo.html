@@ -1,20 +1,4 @@
 <!doctype html>
-<!--
-  Material Design Lite
-  Copyright 2015 Google Inc. All rights reserved.
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-      https://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License
--->
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -30,7 +14,7 @@
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <meta name="apple-mobile-web-app-title" content="Telepathy">
     <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
@@ -54,29 +38,16 @@
       z-index: 900;
     }
     </style>
-    <script type="module" src="simple-demo/my-telepathic-element/my-telepathic-element.js"></script>
-    <script type="module" src="explainer-widget/explainer-widget.js"></script>
-    <script type="module" src="footer-element/footer-element.js"></script>
+    <script type="module" src="telepathic-loader.js"></script>
   </head>
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-        </div>
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-          <h3>Telepathy Demos - Play with telepathic-elements</h3>
-        </div>
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-        </div>
-        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-          <a href="index.html" class="mdl-layout__tab is-active">Main</a>
-        </div>
-      </header>
+        <header-element></header-element>
       <main class="mdl-layout__content">
         <div class="mdl-layout__tab-panel is-active" id="demo">
-            <explainer-widget explain="my-telepathic-element"></explainer-widget>
-            <my-telepathic-element></my-telepathic-element>
-         
+            <explainer-widget-element>
+              <my-telepathic-element></my-telepathic-element>
+            </explainer-widget-element>
           <footer-element></footer-element>
         </div>
       </main>
