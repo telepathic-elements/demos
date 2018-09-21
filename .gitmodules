@@ -4,3 +4,15 @@
 [submodule "telepathic-element"]
 	path = telepathic-element
 	url = https://github.com/telepathic-elements/telepathic-element.git
+[submodule "header-element"]
+	path = header-element
+	url = https://github.com/telepathic-elements/header-element.git
+[submodule "footer-element"]
+	path = footer-element
+	url = https://github.com/telepathic-elements/footer-element.git
+[submodule "nav-menu-element"]
+	path = nav-menu-element
+	url = https://github.com/telepathic-elements/nav-menu-element.git
+[submodule "explainer-widget-element"]
+	path = explainer-widget-element
+	url = https://github.com/telepathic-elements/explainer-widget-element.git
