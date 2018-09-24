@@ -1,14 +1,26 @@
 [
     {
         "name" : "home",
-        "url" : "/index.html",
-        "txt" : "Home",
+        "url" : "/demos/index.html",
+        "txt" : "Demo Home",
         "subItems" : ["demo"]
     },
     {
-        "name" : "demo",
-        "url" : "/demos/index.html",
+        "name" : "simple",
+        "url" : "/demos/simple-demo.html",
         "visibility" : ["home"],
-        "txt" : "Demo"
+        "txt" : "Simple"
+    },
+    {
+        "name" : "qrcode",
+        "url" : "/demos/qr-code-demo.html",
+        "visibility" : ["home"],
+        "txt" : "QRCode"
+    },
+    {
+        "name" : "hangman",
+        "url" : "/demos/hangman-demo.html",
+        "visibility" : ["home"],
+        "txt" : "Hang Man Game"
     }
 ]
