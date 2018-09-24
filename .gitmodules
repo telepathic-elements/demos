@@ -28,3 +28,12 @@
 [submodule "hangman-game-element"]
 	path = hangman-game-element
 	url = https://github.com/telepathic-elements/hangman-game-element.git
+[submodule "web3-service-loader"]
+	path = web3-service-loader
+	url = https://github.com/telepathic-elements/web3-service-loader.git
+[submodule "qr-code-element"]
+	path = qr-code-element
+	url = https://github.com/telepathic-elements/qr-code-element.git
+[submodule "qr-code-demo-element"]
+	path = qr-code-demo-element
+	url = https://github.com/telepathic-elements/qr-code-demo-element.git
