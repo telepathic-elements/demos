@@ -2,7 +2,7 @@
     {
         "name" : "home",
         "url" : "/demos/index.html",
-        "txt" : "Demo Home",
+        "txt" : "Demos",
         "subItems" : ["demo"]
     },
     {
@@ -21,6 +21,12 @@
         "name" : "hangman",
         "url" : "/demos/hangman-demo.html",
         "visibility" : ["home"],
-        "txt" : "Hang Man Game"
+        "txt" : "Hangman"
+    },
+    {
+        "name" : "ethereum",
+        "url" : "/demos/token-info-element-demo.html",
+        "visibility" : ["home"],
+        "txt" : "Ethereum"
     }
 ]
