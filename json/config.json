@@ -1,0 +1,5 @@
+{
+    "mainnet" : {
+        "provider" : "wss://mainnet.infura.io/ws"
+    }
+}

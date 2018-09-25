@@ -37,3 +37,9 @@
 [submodule "qr-code-demo-element"]
 	path = qr-code-demo-element
 	url = https://github.com/telepathic-elements/qr-code-demo-element.git
+[submodule "telepathic-styles"]
+	path = telepathic-styles
+	url = https://github.com/telepathic-elements/telepathic-styles.git
+[submodule "token-info-element"]
+	path = token-info-element
+	url = https://github.com/telepathic-elements/token-info-element.git
