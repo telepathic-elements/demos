@@ -40,3 +40,9 @@
 [submodule "token-info-element"]
 	path = token-info-element
 	url = https://github.com/telepathic-elements/token-info-element.git
+[submodule "markdown-element"]
+	path = markdown-element
+	url = https://github.com/telepathic-elements/markdown-element.git
+[submodule "marked"]
+	path = marked
+	url = https://github.com/telepathic-elements/marked.git
